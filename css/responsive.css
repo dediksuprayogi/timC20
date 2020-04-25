@@ -42,6 +42,9 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .header-logo{
+    padding-left: 5px;
+  }
   .header-logo a{
     font-size: 26px;
     line-height: 65px;
