@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-  max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -21,6 +20,7 @@ header {
 
 .header-logo {
   float: left;
+  padding-left: 20px; 
 }
 
 .header-logo a{
@@ -33,9 +33,11 @@ header {
 
 .header-menu {
   float: right;
+  padding-right: 50px; 
 }
 
 .header-menu a {
+  display: block;
   line-height: 65px;
   padding: 0 20px;
   color: white;
