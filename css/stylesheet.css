@@ -3,6 +3,8 @@ body {
   font-family: Poppins;
 }
 
+
+/* CSS Untuk Header */
 .container {
   width: 100%;
   padding: 0 15px;
@@ -51,7 +53,10 @@ header {
   color: yellow;
   border-bottom: 3px solid yellow;
 }
+/*Akhir CSS untuk header */
 
+
+/* CSS untuk Top Wrapper */
 .top-wrapper{
   padding: 160px 0px;
   background-image: url('../img/background.jpg');
@@ -89,7 +94,10 @@ header {
 .top-wrapper a:hover{
   transform: scale(1.1);
 }
+/* Akhir CSS untuk Top Wrapper*/
 
+
+/* CSS Untuk Team*/
 hr{
   width: 250px;
   border-top: 3px solid #999;
@@ -128,4 +136,64 @@ hr{
 
 .team h2{
   margin: 0 auto;
+}
+/*Akhir CSS Untuk Team*/
+
+
+/* CSS untuk Services*/
+
+.services{
+  box-shadow:  1px 1px 10px rgba(0,0,0,0.5);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)120%), url('../img/bg-oa.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.main-services{
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.main-services h2{
+  font-size: 32px;
+  color: white;
+}
+
+.main-services p{
+  color: white;
+}
+
+.main-services span{
+  color: #edbb00;
+}
+
+.main-services a{
+  background: #edbb00;
+  padding: 5px 25px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.main-services a:hover{
+  transform: scale(1.1);
+}
+/* Akhir CSS untuk services*/
+
+.footer{
+  height: 80px;
+  background-color: rgb(34, 49, 52);
+  color: white;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 14px;
+  padding: 30px 0px;
 }
