@@ -1,58 +1,85 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
+  .header-logo a{
+    font-size: 28px;
+    line-height: 65px;
+    text-decoration: none;
+  }
+
+  .header-menu{
+    padding-right: 30px;
   }
   
-  .top-wrapper h1 {
-    font-size: 32px;
+  .header-menu a {
+    line-height: 65px;
+    font-size: 14px;
+    padding: 0 15px;
   }
-  
-  .heading h2 {
-    font-size: 20px;
+
+  .top-wrapper h1{
+    font-size: 28px;
+  }
+
+  .top-wrapper p{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .team img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .team h2{
+    font-size: 18px;
+  }
+
+  .team p{
+    font-size: 14px;
   }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
+  .header-logo a{
+    font-size: 26px;
+    line-height: 65px;
+    text-decoration: none;
   }
-  
-  footer {
-    text-align: center;
+  .header-menu{
+    padding-right: 40px;
   }
-  
-  .btn {
-    width: 100%;
+  .header-menu a {
+    line-height: 65px;
+    font-size: 12px;
+    padding: 0 7px;
   }
-  
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  
-  /* Tambahkan CSS untuk header-right */
-  .header-right{
-    display:none;
-  }
-  
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon{
-    display: block;
-  }
-  
-  .top-wrapper h1 {
+
+  .top-wrapper h1{
     font-size: 24px;
-    line-height: 36px;
   }
-  
-  .top-wrapper p {
+
+  .top-wrapper p{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .team{
+    width: 50%;
+  }
+
+  .team img{
+    height: 120px;
+    width: 120px;
+  }
+
+  .team h2{
     font-size: 14px;
-    line-height: 20px;
+  }
+
+  .team p{
+    font-size: 12px;
   }
 }
