@@ -51,12 +51,12 @@
     text-decoration: none;
   }
   .header-menu{
-    padding-right: 0px;
+    padding-right: 10px;
   }
   .header-menu a {
     line-height: 65px;
     font-size: 12px;
-    padding: 0 7px;
+    padding: 0 5px;
   }
 
   .top-wrapper h1{
