@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 body {
   margin: 0;
   font-family: Poppins;
@@ -120,6 +124,20 @@ hr{
 
 .head{
   width: 100%;
+  text-align: center;
+}
+
+.about{
+  width: 80%;
+}
+
+.about img{
+  height: 250px;
+  width: 300px;
+}
+
+.about span{
+  font-weight: bold;
 }
 
 .team{
@@ -142,9 +160,35 @@ hr{
 
 /* CSS untuk Services*/
 
+.head-services{
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.body-services{
+  width: 100%;
+  text-align: center;
+}
+
+.content-services{
+  width: 75%;
+  margin: auto;
+}
+
+.content-services img{
+  padding-top: 40px;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.content-services p{
+  text-align: justify;
+}
+
 .services{
   box-shadow:  1px 1px 10px rgba(0,0,0,0.5);
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 60px;
   background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)120%), url('../img/bg-oa.jpg');
   background-attachment: fixed;
@@ -186,7 +230,52 @@ hr{
 }
 /* Akhir CSS untuk services*/
 
+
+
+/*CSS Untuk COntact Form*/
+.contact-form{
+  width: 80%;
+  margin: auto;
+}
+
+.form{
+  display: flex;
+  padding-top: 20px;
+}
+
+.form-15{
+  width: 20%;
+}
+
+.form-75{
+  width: 80%;
+}
+
+form input, textarea{
+  width: 50%;
+  border: 1px solid #dee7ec;
+  padding: 5px
+}
+
+.btn-send{
+  cursor: pointer;
+  background: blue;
+  padding: 10px 45px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+.btn-send:hover{
+  transform: scale(1.1);
+}
+/*Akhir CSS Untuk Contact Form*/
+
+
+
+/* CSS Untuk Footer*/
 .footer{
+  margin-top: 40px;
   height: 80px;
   background-color: rgb(34, 49, 52);
   color: white;
@@ -197,3 +286,4 @@ hr{
   font-size: 14px;
   padding: 30px 0px;
 }
+/*Akhir CSS Untuk Footer*/
