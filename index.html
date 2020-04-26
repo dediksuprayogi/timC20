@@ -25,7 +25,7 @@
 				<a href="#home">Home</a>
 				<a href="#team">Team</a>
 				<a href="#services">Services</a>
-				<a href="#">Contact Us</a>
+				<a href="#contact-form">Contact Us</a>
 			</div>
 		</div>
 	</header>
@@ -33,7 +33,7 @@
 
 
 	<!-- Top Wrapper -->
-	<div class="top-wrapper">
+	<div class="top-wrapper" id="home">
 			<h1 class="animated fadeInDown" style="animation-delay: 0.2s">Belajar Kreatif <span>Dan Cerdas</span></h1>
 			<h1 class="animated fadeInDown" style="animation-delay: 0.5s">Dengan Kerjasama <span>Team</span></h1>
 			<p class="animated zoomIn" style="animation-delay: 0.8s">C20_DTS20 adalah tim yang dibentuk dalam program Online Academy Digital Talent Scholarship 2020.</p>
@@ -47,7 +47,15 @@
 	<div class="container-team" id="team">
 		<div class="main-team">
 			<div class="head">
-				<h2>Team Kami</h2>
+				<h2>About US</h2>
+				<hr>
+			</div>
+			<div class="about">
+				<img src="img/hangout.png">
+				<p><span>C20_DTS20</span> - Merupakan salah satu tim yang dibentuk dalam program Online Academy Digital Talent Scholarship tahun 2020.</p>
+			</div>
+			<div class="head">
+				<h2>About Team</h2>
 				<hr>
 			</div>
 			<div class="team">
@@ -56,22 +64,22 @@
 				<p>Surabaya, Indonesia</p>
 			</div>
 			<div class="team">
+				<img src="img/bagus.jpg">
+				<h2>Cornelius Bagus P.</h2>
+				<p>Malang, Indonesia</p>
+			</div>
+			<div class="team">
 				<img src="img/dwiki.jpg">
 				<h2>Dwiki Raynaldo E.</h2>
 				<p>Surabaya, Indonesia</p>
 			</div>
 			<div class="team">
-				<img src="img/user.jpg">
-				<h2>Cornelius Bagus P.</h2>
-				<p>Malang, Indonesia</p>
-			</div>
-			<div class="team">
-				<img src="img/user.jpg">
+				<img src="img/boy.png">
 				<h2>Chairil Ansyori</h2>
 				<p>Jakarta, Indonesia</p>
 			</div>
 			<div class="team">
-				<img src="img/user.jpg">
+				<img src="img/girl.png">
 				<h2>Cindy Putri</h2>
 				<p>Jakarta, Indonesia</p>
 			</div>
@@ -81,8 +89,25 @@
 
 
 	<!-- Services -->
+	<div class="head-services" id="services">
+		<h2>Services</h2>
+		<hr>
+	</div>
+
+	<div class="body-services">
+		<div class="content-services">
+			<img src="img/OA.png">
+			<h3>Online Academy (OA)</h3>
+			<p>Program Online Academy (OA) merupakan program beasiswa pelatihan dan sertifikasi ditujukan kepada 10.000 peserta terpilih yang ingin meningkatkan keterampilan di bidang IT. Program Online Academy merupakan kerjasama Kementerian Komunikasi dan Informatika dengan Global Techology Company.</p>
+		</div>
+		<div class="content-services">
+			<img src="img/progate.jpeg">
+			<h3>Progate</h3>
+			<p>Bekerja sama dengan <b>Progate</b>, Pelatihan HTML dan CSS akan mempelajari teori dan praktik pemrograman front-end secara daring/online (tampilan halaman web), peserta akan mempelajari cara membuat suatu halaman web modern dan beberapa animasi seperti formulir, tombol 3D, desain responsif menyesuaikan dengan perangkat pengguna. Pada pelatihan Javascript (ES6) peserta akan belajar menggunakan bahasa pemrograman dengan lebih interaktif, dinamis dan peserta akan membuat suatu halaman web dengan kode yang lebih efisien.</p>
+		</div>
+	</div>
 	
-	<div class="services" id="services">
+	<div class="services">
 		<div class="main-services">
 			<h2>Lets Join <span>Now!</span></h2>
 			<p>Online Academy (OA)</p>
@@ -94,6 +119,53 @@
 
 
 	<!-- contact form -->
+	<div class="contact-form" id="contact-form">
+		<div class="head">
+			<h2>Contact Form</h2>
+			<hr>
+		</div>
+		<form>
+			<div class="form">
+				<div class="form-15">
+	              <label for="fullname">Nama</label>
+		        </div>
+		        <div class="form-75">
+	              <input type="text" id="fullname" placeholder="Ketik Nama">
+		        </div>
+			</div>
+
+			<div class="form">
+				<div class="form-15">
+	              <label for="email">Email</label>
+		        </div>
+		        <div class="form-75">
+	              <input type="email" id="email" placeholder="Ketik Email">
+		        </div>
+			</div>
+	        
+			<div class="form">
+		        <div class="form-15">
+	              <label for="telp">No. Telp</label>
+		        </div>
+		        <div class="form-75">
+	              <input type="email" id="telp" placeholder="Ketik No. Telp.">
+		        </div>
+			</div>
+	       	
+	       	<div class="form">
+		        <div class="form-15">
+	              <label for="pesan">Pesan</label>
+		        </div>
+		        <div class="form-75">
+	              <textarea name="" id="pesan" cols="30" rows="10" placeholder="Ketik Isi Pesan"></textarea>
+		        </div>
+	       	</div>
+
+	        <div class="form">
+	            <button class="btn-send">KIRIM</button>
+	        </div>
+    	</form>
+	</div>
 	<!-- Akhir contact form -->
 
 
