@@ -32,6 +32,11 @@
   /* Akhir CSS untuk Top Wrapper*/
 
   /*CSS untuk Team*/
+  .about img{
+    height: 200px;
+    width: 250px;
+  }
+
   .team img{
     height: 150px;
     width: 150px;
@@ -45,6 +50,24 @@
     font-size: 14px;
   }
   /*Akhir CSS untuk Team*/
+
+  /*CSS untuk Services*/
+  .content-services img{
+    max-width: 350px;
+    max-height: 350px;
+  }
+  /*Akhir CSS Untuk Services*/
+
+  /*CSS untuk COntact Form*/
+
+  form input, textarea{
+    width: 80%;
+  }
+
+  .btn-send{
+    padding: 5px 25px;
+  }
+  /*Akhir CSS Untuk Contact Form*/
 }
 
 
@@ -86,6 +109,10 @@
     width: 75%;
   }
 
+  .about p{
+    font-size: 14px;
+  }
+
   .team{
     width: 50%;
   }
@@ -103,4 +130,25 @@
     font-size: 12px;
   }
   /*Akhir CSS untuk Team*/
+
+  /*CSS untuk Services*/
+
+  .content-services img{
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .content-services h2{
+    font-size: 14px;
+  }
+  .content-services p{
+    font-size: 13px;
+  }
+  /*Akhir CSS Untuk Services*/
+
+  /*CSS Untuk Contact form*/
+  form input, textarea{
+    width: 100%;
+  }
+  /*Akhir CSS Untuk Contact Form*/
 }
