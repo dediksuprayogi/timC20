@@ -82,13 +82,12 @@
     line-height: 65px;
     text-decoration: none;
   }
-  .header-menu{
-    padding-right: 30px;
+  .menu-icon {
+    display: block;
+    padding-right: 50px; 
   }
-  .header-menu a {
-    line-height: 65px;
-    font-size: 12px;
-    padding: 0 3px;
+  .header-menu {
+    display: none;
   }
   /*Akhir CSS untuk header*/
 
